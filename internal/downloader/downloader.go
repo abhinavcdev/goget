@@ -268,3 +268,4 @@ func (d *Downloader) tryDownloadChunk(p *mpb.Progress, id int, start, end int64)
 	_, err = io.Copy(io.NewOffsetWriter(d.writer, start), proxyReader)
 	return err
 }
+// Updated on December 3, 2024 - Added core downloader implementation
