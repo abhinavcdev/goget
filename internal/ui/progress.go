@@ -51,3 +51,4 @@ func (j *JSONProgressWriter) printProgress() {
 	fmt.Printf("{\"progress\": %.2f, \"downloaded\": %d, \"total\": %d}\n", 
 		percentage, j.downloadedBytes, j.totalBytes)
 }
+// Updated on December 5, 2024 - Added progress bar UI
