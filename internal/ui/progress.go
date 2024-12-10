@@ -52,3 +52,4 @@ func (j *JSONProgressWriter) printProgress() {
 		percentage, j.downloadedBytes, j.totalBytes)
 }
 // Updated on December 5, 2024 - Added progress bar UI
+// Updated on December 10, 2024 - Added JSON output support
