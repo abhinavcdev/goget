@@ -114,3 +114,4 @@ func parseS3URL(s3URL string) (string, string, error) {
 
 	return bucket, key, nil
 }
+// Updated on December 20, 2024 - Added direct S3 download support
