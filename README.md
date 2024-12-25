@@ -146,3 +146,4 @@ goget/
 
 MIT
 # Initial project setup on December 1, 2024
+# Updated on December 25, 2024 - Added benchmark results
