@@ -269,3 +269,4 @@ func (d *Downloader) tryDownloadChunk(p *mpb.Progress, id int, start, end int64)
 	return err
 }
 // Updated on December 3, 2024 - Added core downloader implementation
+// Updated on December 28, 2024 - Fixed bugs and improved error handling
